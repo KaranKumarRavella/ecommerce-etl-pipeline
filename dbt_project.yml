@@ -1,0 +1,15 @@
+name: ecommerce_etl
+version: 1.0.0
+config-version: 2
+profile: ecommerce_etl
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  ecommerce_etl:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

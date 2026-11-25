@@ -1,0 +1,6 @@
+# Install separately for the Airflow deployment. Airflow is intentionally
+# kept out of requirements.txt so the core pipeline stays light.
+# See README.md "Running with Airflow" for the matching version pin.
+-r requirements.txt
+apache-airflow==2.9.3
+apache-airflow-providers-postgres==5.13.1

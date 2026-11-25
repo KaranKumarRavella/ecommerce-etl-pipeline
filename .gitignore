@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.local
+.pytest_cache/
+.ruff_cache/
+data/raw/
+data/generated/
+*.log
+logs/
+airflow/logs/
+airflow/airflow.db
+.DS_Store
